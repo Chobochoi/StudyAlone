@@ -180,26 +180,28 @@ using namespace std;
 
 // 프로그래머스 햄버거 만들기
 
-int solution(vector<int> ingredient)
-{
-	int answer = 0;
-	vector<int> burger = { -1 };
-	for (int x : ingredient)
-	{
-		if (burger.back() == 1 && x == 2)
-		{
-			burger.back() = 12;
-		}
-		else if (burger.back() == 12 && x == 3)
-		{
-			burger.back() = 123;
-		}
-		else if (burger.back() == 123 && x == 1)
-		{
-			burger.pop_back();
-			answer++;
-		}
-		else burger.push_back(x);
-	}
-	return answer;
-}
+//int solution(vector<int> ingredient)
+//{
+//	int answer = 0;
+//	vector<int> burger = { -1 };
+//	for (int x : ingredient)
+//	{
+//		if (burger.back() == 1 && x == 2)
+//		{
+//			burger.back() = 12;
+//		}
+//		else if (burger.back() == 12 && x == 3)
+//		{
+//			burger.back() = 123;
+//		}
+//		else if (burger.back() == 123 && x == 1)
+//		{
+//			burger.pop_back();
+//			answer++;
+//		}
+//		else burger.push_back(x);
+//	}
+//	return answer;
+//}
+
+
