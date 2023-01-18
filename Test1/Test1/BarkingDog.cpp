@@ -126,4 +126,9 @@ using namespace std;
 	}
 
 
+// C언어의 포인터, 디버깅 가능, Callback 구조를 알아야한다.
+// Linked List, 2진 트리 책을 안보고도 주소록 정도를 짜줘야한다.
+// Process, Thread 제어 IPC DLL 부분도 되면 좋다. File I/O 중요
+// IOCP 제대로 이해하려면 Threadpool 필요 (동기화는 기본)
+
 
